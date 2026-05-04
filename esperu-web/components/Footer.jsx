@@ -27,7 +27,7 @@
             <ul className="space-y-2 text-gray-400 text-sm">
                 <li>Arequipa, Perú</li>
                 <li>WhatsApp: +51 966 366 499</li>
-                <li>Correo: esperu.scrl@esperu.com</li>
+                <li>Correo: esperu.scrl@gmail.com</li>
             </ul>
             </div>
         </div>
