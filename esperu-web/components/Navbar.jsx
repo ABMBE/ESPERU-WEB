@@ -1,28 +1,49 @@
 export default function Navbar() {
-    return (
-        <header className="fixed top-0 left-0 w-full z-50 bg-black/60 backdrop-blur-xl border-b border-white/10">
-        <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-white">
-            <div className="font-bold tracking-widest text-xl">
+  return (
+    <header className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-xl border-b border-white/10">
+      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-8">
+        <div className="shrink-0">
+          <h1 className="text-white font-bold tracking-[0.18em] text-2xl">
             ESPERU
-            <span className="block text-xs tracking-normal text-yellow-500 font-medium">
-                Soporte e infraestructura tecnológica
-            </span>
-            </div>
+          </h1>
 
-            <div className="hidden md:flex items-center gap-8 text-sm text-gray-300">
-            <a href="#servicios" className="hover:text-yellow-500 transition">Servicios</a>
-            <a href="#planes" className="hover:text-yellow-500 transition">Planes</a>
-            <a href="#nosotros" className="hover:text-yellow-500 transition">Por qué ESPERU</a>
-            <a href="#contacto" className="hover:text-yellow-500 transition">Contacto</a>
-            </div>
+          <p className="text-xs text-[#C8A95B] font-medium mt-1 max-w-[150px]">
+            Soporte e infraestructura tecnológica
+          </p>
+        </div>
 
-            <a
-            href="#contacto"
-            className="hidden md:inline-block bg-yellow-500 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-400 transition"
-            >
-            Cotizar
-            </a>
-        </nav>
-        </header>
-    );
-    }
+        <div className="hidden lg:flex items-center gap-8 text-sm text-gray-300">
+          <a href="#soluciones" className="hover:text-[#C8A95B] transition">
+            Soluciones
+          </a>
+          <a href="#sectores" className="hover:text-[#C8A95B] transition">
+            Sectores
+          </a>
+          <a href="#servicios" className="hover:text-[#C8A95B] transition">
+            Servicios
+          </a>
+          <a href="#planes" className="hover:text-[#C8A95B] transition">
+            Planes
+          </a>
+          <a href="#contacto" className="hover:text-[#C8A95B] transition">
+            Contacto
+          </a>
+        </div>
+
+        <a
+          href="#servicios"
+          className="hidden lg:inline-flex shrink-0 items-center justify-center rounded-2xl bg-gradient-to-r from-[#B89B5E] to-[#D3B872] text-black px-6 py-3 font-semibold hover:scale-105 active:scale-95 transition duration-300"
+        >
+          Ver soluciones
+        </a>
+
+        <a
+          href="#contacto"
+          className="lg:hidden inline-flex rounded-xl border border-white/10 px-4 py-2 text-sm text-white"
+        >
+          Contacto
+        </a>
+      </nav>
+    </header>
+  );
+}

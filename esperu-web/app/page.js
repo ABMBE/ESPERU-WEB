@@ -1,20 +1,24 @@
 import Hero from "@/components/sections/Hero";
 import Navbar from "@/components/Navbar";
-import Services from "@/components/sections/Services";
-import Plans from "@/components/sections/Planes";
+import ServicePlans from "@/components/sections/ServicePlans";
 import Contact from "@/components/sections/Contact";
 import Why from "@/components/sections/Why";
 import Footer from "@/components/Footer";
 import WhatsappButton from "@/components/WhatsappButton";
+import Solutions from "@/components/sections/Solutions";
+import Sectors from "@/components/sections/Sectors";
+import FeaturedServices from "@/components/sections/FeaturedServices";
 
 export default function Home() {
   return (
     <main>
       <Navbar/>
       <Hero />
-      <Services/>
+      <Solutions/>
+      <Sectors/>
+      <FeaturedServices></FeaturedServices>
       <Why/>
-      <Plans/>
+      <ServicePlans/>
       <Contact/>
       <Footer/>
     <WhatsappButton/>
