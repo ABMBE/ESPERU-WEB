@@ -1,15 +1,26 @@
+import Image from "next/image";
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-xl border-b border-white/10">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-8">
-        <div className="shrink-0">
-          <h1 className="text-white font-bold tracking-[0.18em] text-2xl">
-            ESPERU
-          </h1>
+        <div className="flex items-center gap-3">
+          <Image
+            src="/logo/logo-fat.png"
+            alt="ESPERU"
+            width={60}
+            height={60}
+            priority
+          />
 
-          <p className="text-xs text-[#C8A95B] font-medium mt-1 max-w-[150px]">
-            Soporte e infraestructura tecnológica
-          </p>
+          <div>
+            <h1 className="text-white font-bold tracking-[0.18em] text-xl">
+              ESPERU
+            </h1>
+
+            <p className="text-xs text-[#C8A95B]">
+              Soporte e infraestructura tecnológica
+            </p>
+          </div>
         </div>
 
         <div className="hidden lg:flex items-center gap-8 text-sm text-gray-300">

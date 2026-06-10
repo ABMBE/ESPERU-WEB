@@ -1,20 +1,22 @@
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-[#0A0A0A] text-white border-t border-white/10 py-14">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
-        <div>
-          <h2 className="text-2xl font-bold tracking-[0.18em]">ESPERU</h2>
-
-          <p className="mt-2 text-[#C8A95B] text-sm font-medium">
-            Soporte e infraestructura tecnológica
-          </p>
-
-          <p className="mt-5 text-gray-400 text-sm leading-relaxed">
-            Soluciones en soporte técnico, redes, infraestructura eléctrica,
-            desarrollo tecnológico y continuidad operativa para empresas,
-            instituciones y profesionales.
-          </p>
-        </div>
+        <div className="max-w-md">
+  <Image
+    src="/logo/logo-negro.png"
+    alt="ESPERU"
+    width={200}
+    height={150}
+    className="mb-0"
+  />
+  <p className="mt-5 text-gray-400 leading-relaxed">
+    Soluciones en soporte técnico, infraestructura tecnológica
+    y continuidad operativa para empresas, instituciones y
+    profesionales.
+  </p>
+</div>
 
         <div>
           <h3 className="font-semibold mb-5 text-white">Navegación</h3>
