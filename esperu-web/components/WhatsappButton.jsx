@@ -12,7 +12,8 @@ export default function WhatsappButton() {
         w-16
         h-16
         rounded-full
-        bg-[#C8A95B]
+        bg-[#C8A95B]/90
+        backdrop-blur-md
         text-black
         flex
         items-center
