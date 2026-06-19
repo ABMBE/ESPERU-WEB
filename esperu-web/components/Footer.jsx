@@ -41,7 +41,7 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-3 mt-6">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61574760004987"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-xl border border-white/10 bg-white/5 text-sm hover:border-[#C8A95B] hover:text-[#C8A95B] transition"
@@ -50,7 +50,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/e_speru_/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-xl border border-white/10 bg-white/5 text-sm hover:border-[#C8A95B] hover:text-[#C8A95B] transition"

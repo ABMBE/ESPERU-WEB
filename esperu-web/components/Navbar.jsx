@@ -7,8 +7,8 @@ export default function Navbar() {
           <Image
             src="/logo/logo-fat.png"
             alt="ESPERU"
-            width={60}
-            height={60}
+            width={35}
+            height={35}
             priority
           />
 
