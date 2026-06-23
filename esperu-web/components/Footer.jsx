@@ -44,10 +44,12 @@ export default function Footer() {
               href="https://www.facebook.com/profile.php?id=61574760004987"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded-xl border border-white/10 bg-white/5 text-sm hover:border-[#C8A95B] hover:text-[#C8A95B] transition"
+              className="px-2 py-2 rounded-xl border border-white/10 bg-white/5 text-sm hover:border-[#C8A95B] hover:text-[#C8A95B] transition"
             >
               Facebook
             </a>
+            
+            
 
             <a
               href="https://www.instagram.com/e_speru_/"
@@ -62,7 +64,7 @@ export default function Footer() {
               href="https://wa.me/51966366499"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded-xl border border-white/10 bg-white/5 text-sm hover:border-[#C8A95B] hover:text-[#C8A95B] transition"
+              className="px-4 py-2 rounded-https://img.icons8.com/?size=100&id=8818&format=png&color=000000xl border border-white/10 bg-white/5 text-sm hover:border-[#C8A95B] hover:text-[#C8A95B] transition"
             >
               WhatsApp
             </a>

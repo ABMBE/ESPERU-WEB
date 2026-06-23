@@ -28,7 +28,8 @@ export default function EducationHero() {
 </div>
        <div className="mb-8 flex justify-center">
   <span className="text-sm tracking-[0.25em] uppercase text-[#C8A95B]">
-    ESPERU EDUCACIÓN
+    ESPERU 
+   - EDUCACIÓN
   </span>
 </div>
 
@@ -38,9 +39,9 @@ export default function EducationHero() {
         </h1>
 
         <p className="mt-7 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          Ayudamos a colegios, institutos y academias a mantener sus laboratorios,
-          redes, equipos e infraestructura tecnológica funcionando de forma estable
-          y segura.
+          Ayudamos a instituciones educativas a reducir fallas,
+           mantener sus laboratorios operativos y asegurar la
+           continuidad de sus actividades académicas.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
@@ -48,7 +49,7 @@ export default function EducationHero() {
             href="#contacto-educacion"
             className="bg-gradient-to-r from-[#B89B5E] to-[#D3B872] text-black px-7 py-4 rounded-2xl font-semibold hover:scale-105 active:scale-95 transition duration-300 shadow-lg shadow-[#C8A95B]/10"
           >
-            Solicitar evaluación institucional
+            Solicitar diagnostico
           </a>
 
           <a

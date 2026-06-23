@@ -4,32 +4,32 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    title: "Mantenimiento de equipos",
+    title: "Mantenimiento de equipos ⚙️ ",
     text: "Limpieza, diagnóstico, optimización y mantenimiento preventivo para laptops, PCs e impresoras.",
     tag: "Soporte técnico",
   },
   {
-    title: "Venta de equipos",
+    title: "Venta de equipos 💻",
     text: "Laptops, computadoras, monitores, impresoras y accesorios seleccionados según la necesidad del cliente.",
     tag: "Equipamiento",
   },
   {
-    title: "Creación de páginas web",
+    title: "Creación de páginas web 🌐",
     text: "Diseño y desarrollo de páginas modernas para empresas, profesionales, portafolios y servicios.",
     tag: "Tecnología",
   },
   {
-    title: "Redes y cableado",
+    title: "Redes y cableado 🛜",
     text: "Instalación, ordenamiento y mejora de redes, puntos de red, WiFi, switches y cableado estructurado.",
     tag: "Infraestructura",
   },
   {
-    title: "Licencias y software",
+    title: "Licencias y software 🧑🏼‍💻",
     text: "Instalación y configuración de licencias, herramientas de productividad y software empresarial.",
     tag: "Software",
   },
   {
-    title: "Soporte empresarial",
+    title: "Soporte empresarial 👨🏼‍🏭",
     text: "Atención técnica para oficinas, instituciones y negocios que necesitan continuidad y respuesta profesional.",
     tag: "Empresas",
   },
