@@ -15,7 +15,7 @@ return ( <section
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+      <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
         Evaluación institucional
       </p>
 

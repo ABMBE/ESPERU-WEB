@@ -36,7 +36,7 @@ export default function EducationBenefits() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+          <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
             Beneficios
           </p>
 
@@ -60,7 +60,7 @@ export default function EducationBenefits() {
               viewport={{ once: true }}
               className="rounded-[2rem] border border-[#E8E4DD] bg-white p-7 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300"
             >
-              <p className="text-[#C8A95B] text-sm font-semibold">
+              <p className="text-[#C8A95B] text-sm font-semibold font-mono-accent">
                 0{index + 1}
               </p>
 

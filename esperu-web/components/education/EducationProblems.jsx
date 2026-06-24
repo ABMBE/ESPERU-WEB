@@ -1,31 +1,38 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Gauge, WifiOff, Wrench, Zap, ClipboardList, OctagonAlert } from "lucide-react";
 
 const problems = [
   {
-    title: "Laboratorios lentos 🐢" ,
+    title: "Laboratorios lentos",
     text: "Equipos que demoran en iniciar, se congelan o dificultan el desarrollo normal de clases.",
+    icon: Gauge,
   },
   {
-    title: "WiFi inestable 🛜 ",
+    title: "WiFi inestable",
     text: "Conexiones débiles, cortes frecuentes o zonas sin cobertura dentro de la institución.",
+    icon: WifiOff,
   },
   {
-    title: "Equipos sin mantenimiento ⚙️",
+    title: "Equipos sin mantenimiento",
     text: "Computadoras, laptops e impresoras que acumulan fallas por falta de revisión preventiva.",
+    icon: Wrench,
   },
   {
-    title: "Riesgos eléctricos⚡",
+    title: "Riesgos eléctricos",
     text: "Instalaciones, tableros o puntos eléctricos que necesitan revisión para operar con seguridad.",
+    icon: Zap,
   },
   {
-    title: "Inventario desactualizado 🖥️ ",
+    title: "Inventario desactualizado",
     text: "Dificultad para saber qué equipos existen, en qué estado están y cuáles requieren renovación.",
+    icon: ClipboardList,
   },
   {
-    title: "Interrupciones operativas 🚫",
+    title: "Interrupciones operativas",
     text: "Fallas técnicas que afectan clases, administración, atención a padres o procesos internos.",
+    icon: OctagonAlert,
   },
 ];
 
@@ -39,7 +46,7 @@ export default function EducationProblems() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+          <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
             Problemas comunes
           </p>
 
@@ -54,28 +61,31 @@ export default function EducationProblems() {
         </div>
 
         <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {problems.map((problem, index) => (
-            <motion.div
-              key={problem.title}
-              initial={{ opacity: 0, y: 35 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.08 }}
-              viewport={{ once: true }}
-              className="rounded-[2rem] border border-white/10 bg-white/[0.045] p-7 hover:bg-white/[0.08] hover:-translate-y-2 transition duration-300"
-            >
-              <p className="text-[#C8A95B] text-sm font-semibold">
-                0{index + 1}
-              </p>
+          {problems.map((problem, index) => {
+            const Icon = problem.icon;
+            return (
+              <motion.div
+                key={problem.title}
+                initial={{ opacity: 0, y: 35 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.08 }}
+                viewport={{ once: true }}
+                className="rounded-[2rem] border border-white/10 bg-white/[0.045] p-7 hover:bg-white/[0.08] hover:-translate-y-2 transition duration-300"
+              >
+                <div className="h-11 w-11 rounded-xl bg-white/5 border border-[#C8A95B]/30 text-[#C8A95B] flex items-center justify-center">
+                  <Icon size={20} />
+                </div>
 
-              <h3 className="mt-5 text-xl font-semibold">
-                {problem.title}
-              </h3>
+                <h3 className="mt-5 text-xl font-semibold">
+                  {problem.title}
+                </h3>
 
-              <p className="mt-4 text-gray-400 leading-relaxed">
-                {problem.text}
-              </p>
-            </motion.div>
-          ))}
+                <p className="mt-4 text-gray-400 leading-relaxed">
+                  {problem.text}
+                </p>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>

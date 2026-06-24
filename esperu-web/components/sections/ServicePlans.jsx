@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { CheckCircle2 } from "lucide-react";
 
 const plans = [
   {
@@ -51,7 +52,7 @@ export default function ServicePlans() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+          <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
             Planes de atención
           </p>
 
@@ -81,12 +82,12 @@ export default function ServicePlans() {
               }`}
             >
               {plan.featured && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#C8A95B] text-black text-xs px-4 py-2 rounded-full font-bold tracking-wide">
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#C8A95B] text-black text-xs px-4 py-2 rounded-full font-bold tracking-wide font-mono-accent">
                   MÁS RECOMENDADO
                 </div>
               )}
 
-              <p className="text-sm text-[#C8A95B] font-semibold">
+              <p className="text-sm text-[#C8A95B] font-semibold font-mono-accent">
                 0{index + 1}
               </p>
 
@@ -103,7 +104,7 @@ export default function ServicePlans() {
               <ul className="mt-8 space-y-4 text-gray-300">
                 {plan.items.map((item) => (
                   <li key={item} className="flex gap-3">
-                    <span className="text-[#C8A95B]">✓</span>
+                    <CheckCircle2 size={18} className="text-[#C8A95B] shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}

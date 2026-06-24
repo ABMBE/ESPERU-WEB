@@ -47,7 +47,7 @@ return ( <section className="relative bg-[#F5F3EF] text-[#111111] py-24 overflow
 
   <div className="relative max-w-7xl mx-auto px-6">
     <div className="text-center max-w-2xl mx-auto">
-      <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+      <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
         Soluciones educativas
       </p>
 
@@ -73,7 +73,7 @@ return ( <section className="relative bg-[#F5F3EF] text-[#111111] py-24 overflow
           viewport={{ once: true }}
           className="rounded-[2rem] border border-[#E8E4DD] bg-white p-8 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300"
         >
-          <span className="inline-block px-3 py-1 rounded-full bg-[#C8A95B]/10 border border-[#C8A95B]/20 text-[#C8A95B] text-xs font-semibold tracking-wide">
+          <span className="inline-block px-3 py-1 rounded-full bg-[#C8A95B]/10 border border-[#C8A95B]/20 text-[#C8A95B] text-xs font-semibold tracking-wide font-mono-accent">
             {solution.tag}
           </span>
 

@@ -6,7 +6,7 @@ export default function Contact() {
     >
       <div className="max-w-5xl mx-auto px-6 text-center">
 
-        <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+        <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
           Contacto
         </p>
 

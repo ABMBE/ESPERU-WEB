@@ -21,13 +21,14 @@ export default function EducationHero() {
   <Image
     src="/logo/logo-fat.png"
     alt="ESPERU"
-    width={30}
-    height={18}
+    width={428}
+    height={524}
     priority
+    className="h-7 w-auto"
   />
 </div>
        <div className="mb-8 flex justify-center">
-  <span className="text-sm tracking-[0.25em] uppercase text-[#C8A95B]">
+  <span className="text-sm tracking-[0.25em] uppercase text-[#C8A95B] font-mono-accent">
     ESPERU 
    - EDUCACIÓN
   </span>

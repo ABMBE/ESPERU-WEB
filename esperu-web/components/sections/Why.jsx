@@ -36,7 +36,7 @@ export default function Why() {
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-14 items-start">
           <div>
-            <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+            <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
               Por qué ESPERU
             </p>
 
@@ -71,7 +71,7 @@ export default function Why() {
                 className="group rounded-[2rem] border border-white/10 bg-white/5 p-7 backdrop-blur-md hover:bg-white/10 hover:-translate-y-1 transition duration-300"
               >
                 <div className="flex gap-5">
-                  <span className="text-[#C8A95B] font-semibold">
+                  <span className="text-[#C8A95B] font-semibold font-mono-accent">
                     {item.number}
                   </span>
 

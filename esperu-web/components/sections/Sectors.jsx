@@ -33,7 +33,7 @@ return ( <section
 
   <div className="relative max-w-7xl mx-auto px-6">
     <div className="text-center max-w-3xl mx-auto">
-      <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest">
+      <p className="text-sm font-semibold text-[#C8A95B] uppercase tracking-widest font-mono-accent">
         Sectores que atendemos
       </p>
 
@@ -58,7 +58,7 @@ return ( <section
           className="group rounded-[1.75rem] border border-white/10 bg-white/[0.04] p-7 backdrop-blur-md hover:bg-white/[0.075] hover:-translate-y-2 transition duration-300"
         >
           <div className="flex items-center justify-between">
-            <p className="text-[#C8A95B] text-sm font-semibold">
+            <p className="text-[#C8A95B] text-sm font-semibold font-mono-accent">
               0{index + 1}
             </p>
 

@@ -65,7 +65,7 @@ export default function Hero() {
               key={pillar.title}
               className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 hover:bg-white/[0.07] transition duration-300"
             >
-              <p className="text-[#C8A95B] text-sm font-semibold">
+              <p className="text-[#C8A95B] text-sm font-semibold font-mono-accent">
                 {pillar.number}
               </p>
               <h3 className="mt-2 font-semibold">{pillar.title}</h3>

@@ -33,7 +33,7 @@ export default function Solutions() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold text-[#D4AF37] uppercase tracking-widest">
+          <p className="text-sm font-semibold text-[#D4AF37] uppercase tracking-widest font-mono-accent">
             Soluciones ESPERU
           </p>
 
@@ -57,7 +57,7 @@ export default function Solutions() {
               viewport={{ once: true }}
               className="group rounded-[2rem] border border-black/10 bg-white p-8 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-300"
             >
-              <div className="h-12 w-12 rounded-2xl bg-[#0A0A0A] text-[#D4AF37] flex items-center justify-center font-bold">
+              <div className="h-12 w-12 rounded-2xl bg-[#0A0A0A] text-[#D4AF37] flex items-center justify-center font-bold font-mono-accent">
                 {index + 1}
               </div>
 
